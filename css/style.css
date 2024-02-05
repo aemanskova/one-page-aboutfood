@@ -1,0 +1,204 @@
+* {
+    font-family: 'Rubik', sans-serif;
+
+}
+
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+    margin: 0;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.orange_header {
+    font-size: 36px;
+    color: #FF7A50;
+    font-weight: bold;
+}
+
+.firsttask_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 63px;
+    padding-bottom: 7px;
+}
+
+.wrap {
+    width: 1169px;
+    margin: 0 auto;
+    padding-bottom: 71px;
+}
+
+#firsttask {
+    background-color: #E5E5E5;
+}
+
+.white_rectangle {
+    background-color: white;
+    border-radius: 0px 0px 53px 5px;
+    max-width: 361px;
+    padding: 22px 0px;
+}
+
+.firsttask_flex {
+    display: flex;
+    gap: 43px;
+    padding-bottom: 43px;
+}
+
+.firsttask_item {
+    display: flex;
+    flex-direction: column;
+}
+
+.img {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 361px;
+    height: 299px;
+    border-radius: 53px 5px 0px 0px;
+}
+
+#blazepizza {
+    background-image: url(/img/firstpizza.jpg);
+}
+
+#pizzaranch {
+    background-image: url(/img/pizzaranch.jpg);
+}
+
+#pizzahut {
+    background-image: url(/img/pizzahut.jpg);
+}
+
+#burger {
+    background-image: url(/img/burger.jpg);
+}
+
+#free {
+    background-image: url(/img/free.jpg);
+}
+
+#blackburger {
+    background-image: url(/img/blackburger.jpg);
+}
+
+.orange_rectangle {
+    background-color: #FF7A50;
+    width: 79px;
+    height: 33px;
+    border-radius: 20px 20px 0px 20px;
+    position: relative;
+}
+
+.white_rectangle_flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 11px;
+
+
+}
+
+span {
+    font-size: 24px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+.time {
+    font-size: 18px;
+    margin: 0px 30px 0px 8px;
+}
+
+.arrow {
+    position: absolute;
+    top: 11px;
+    left: 33px;
+    right: 32px;
+}
+
+.btn {
+    border: none;
+    padding: 20px;
+    font-size: 14px;
+    background-color: #FF7A50;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 50%;
+    transition: 1s;
+}
+
+.btn:active {
+    opacity: 70%;
+}
+
+.discription {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 24px;
+}
+
+a:hover {
+    opacity: 50%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.form_radio {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+
+
+.form_label {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+form {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.submit {
+    min-width: 156px;
+    padding: 20px;
+    background-color: #FF7A50;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.submit:hover {
+    opacity: 50%;
+    transition: 1s;
+}
+
+.form_label .form_enters:focus-within {
+    box-shadow: 2px 2px 6px #FF7A50;
+}
+
+.form_enters:focus~label {
+    color: #FF7A50;
+}
+
